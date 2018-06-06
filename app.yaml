@@ -1,0 +1,14 @@
+application: s3261107-ccs2017-go
+version: 1
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /css
+  static_dir: css
+
+- url: /(.+\.php)$
+  script: \1
+
+- url: /.*
+  script: index.php

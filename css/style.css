@@ -1,0 +1,199 @@
+html {
+	background-image: url(BG.png);
+}
+#header {
+	margin: 1% auto;
+	padding: 50px;
+	width: 60%;
+	background-image: url(title.png);
+	text-align: center;
+	font-size: 150%;
+	font-family: 'Cabin', sans-serif;
+	border-radius: 10px;
+}
+
+.content {
+	margin: 1% auto;
+	padding: 10px;
+	width: 50%;
+	color: #ffffff;
+	font-family: 'Helvetica', sans-serif;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	box-shadow: 10px 10px 100px #212121;
+	display: flex;
+}
+
+table {
+	text-align: left;
+	border-collapse: collapse;
+	border-radius: 5px;
+	font-size: 80%;
+}
+
+th, td{
+	padding: 5px 15px 5px 2.5px;
+}
+
+#mainDiv {
+	position: absolute;
+	left: 50px;
+	top: 26px;
+	width: 888px;
+	height: 704px;
+	z-index: 2;
+}
+#headDiv {
+	position: absolute;
+	left: 78px;
+	top: 34px;
+	width: 621px;
+	height: 97px;
+	z-index: 3;
+}
+#hero01Div {
+	position: absolute;
+	left: 20px;
+	top: 160px;
+	width: 180px;
+	height: 500px;
+	z-index: 1;
+	background: url(hero_bg.png);
+	
+}
+#hero02Div {
+	position: absolute;
+	left: 240px;
+	top: 160px;
+	width: 180px;
+	height: 500px;
+	z-index: 1;
+	background: url(hero_bg.png);
+}
+#hero03Div {
+	position: absolute;
+	left: 460px;
+	top: 160px;
+	width: 180px;
+	height: 500px;
+	z-index: 1;
+	background: url(hero_bg.png);
+}
+#bossDiv {
+	position: absolute;
+	left: 760px;
+	top: 140px;
+	width: 500px;
+	height: 540px;
+	z-index: 1;
+	background: url(boss_bg.png);
+}
+#avatarDiv {
+	position: absolute;
+	left: 25px;
+	top: 180px;
+	width: 130px;
+	height: 128px;
+	z-index: 3;
+}
+#des01Div {
+	position: absolute;
+	left: 20px;
+	top: 70px;
+	width: 130px;
+	height: 188px;
+	z-index: 3;
+}
+#des02Div {
+	position: absolute;
+	left: 20px;
+	top: 70px;
+	width: 130px;
+	height: 188px;
+	z-index: 3;
+}
+#des03Div {
+	position: absolute;
+	left: 20px;
+	top: 70px;
+	width: 130px;
+	height: 188px;
+	z-index: 3;
+}
+#des04Div {
+	position: absolute;
+	left: 170px;
+	top: 100px;
+	width: 300px;
+	height: 188px;
+	z-index: 3;
+}
+#button01Div {
+	position: absolute;
+	left: 20px;
+	top: 389px;
+	width: 131px;
+	height: 35px;
+	z-index: 3;
+}
+#button02Div {
+	position: absolute;
+	left: 20px;
+	top: 420px;
+	width: 131px;
+	height: 35px;
+	z-index: 3;
+}
+#button03Div {
+	position: absolute;
+	left: 130px;
+	top: 420px;
+	width: 131px;
+	height: 35px;
+	z-index: 3;
+}
+
+#listHero {
+	background: url(play_btn1.png);
+	padding: 12px 68px;
+}
+#addHero01 {
+	background: url(add_btn1.png);
+	padding: 63px 68px;
+}
+#addHero02 {
+	background: url(add_btn1.png);
+	padding: 63px 68px;
+}
+#addHero03 {
+	background: url(add_btn1.png);
+	padding: 63px 68px;
+}
+#trainHero01 {
+	background: url(train_btn1.png);
+	padding: 12px 68px;
+}
+#trainHero02 {
+	background: url(train_btn1.png);
+	padding: 12px 68px;
+}
+#trainHero03 {
+	background: url(train_btn1.png);
+	padding: 12px 68px;
+}
+#removeHero01 {
+	background: url(dismiss_btn1.png);
+	padding: 12px 68px;
+}
+#removeHero02 {
+	background: url(dismiss_btn1.png);
+	padding: 12px 68px;
+}
+#removeHero03 {
+	background: url(dismiss_btn1.png);
+	padding: 12px 68px;
+}
+#challenge {
+	background: url(cha_btn1.png);
+	padding: 29px 128px;
+}
